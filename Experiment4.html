@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment4</title>
+</head>
+
+<body>
+    <form action="response.html" method="get" target="_blank" name="HotelBookingform" align="center">
+        <h1>Hotel Room Booking Form</h1>
+        <label for="Full Name">
+            <strong> Full Name:</strong> <input type="text" name="name" id="Full Name" required>
+
+        </label>
+        <br><br>
+        <label for="Email">
+            <strong>Email:</strong> <input type="email" name="email" id="Email" required>
+            <br><br>
+            <label for="Phone">
+                <strong>Phone:</strong> <input type="tel" name="Phone" id="Phone" required>
+                <br><br>
+                <label for="check-in">
+                    <strong>Check-in Date:</strong> <input type="date" name="Check-in Date" id="check-in" required>
+                </label>
+                <br><br>
+                <label for="check-out">
+                    <strong>Check-out Date:</strong> <input type="date" name="Check-out Date" id="check-out" required>
+                </label>
+                <br><br>
+                <label for="select"></label>
+                <strong>Room Type:</strong> <select name="Room preferences" id="select">
+                    <br><br>
+                    <option value="Single Room">Single Room</option>
+                    <option value="Double bedroom">Double bedroom</option>
+                </select>
+                <br><br>
+                <label for="guests"></label>
+               <strong>No.of Guests:</strong> <input type="number" id="guests" name="guestno." min="1" max="6">
+               <br><br>
+                <label for="sr"><center><strong>Special Requests:</strong></center></label>
+                <textarea name="special requests" id="sr" rows="3" cols="50"></textarea>
+                <br><br>
+                <button type="submit">Book Now</button>
+                <button type="reset">Reset Form</button>
+
+
+        
+
+
+
+
+
+    </form>
+</body>
+</html>
